@@ -1,0 +1,27 @@
+.skilwrapper {
+  padding: 5px;
+  max-width: max-content;
+  margin: 10px auto;
+  cursor: pointer;
+}
+.skilimgwrapper {
+  max-width: 75px;
+  margin: auto;
+}
+.skilwrapper:hover {
+  transition: 0.3s ease-in;
+  box-shadow: 1px 1px 10px 1px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.skilname h3 {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 22px;
+}
+
+@media screen and (max-width: 767px) {
+  .skilimgwrapper {
+    max-width: 55px;
+  }
+}

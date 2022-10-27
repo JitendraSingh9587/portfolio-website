@@ -1,0 +1,113 @@
+.card-wrapper {
+  box-shadow: 1px 1px 10px 1px #00000099;
+  padding: 50px;
+  border-radius: 25px;
+}
+.portfolio-image {
+  max-width: 150px;
+  border-radius: 50%;
+  margin: auto;
+}
+.portfolio-image img {
+  border-radius: 50%;
+}
+
+.information-container {
+  text-align: center;
+  margin-top: 20px;
+  text-transform: capitalize;
+}
+.information-container h1 {
+  font-size: 38px;
+}
+.information-container h3 {
+  font-size: 20px;
+}
+.social-links {
+  max-width: 40px;
+  margin: auto;
+  padding: 5px;
+  transition: 0.3s ease-in;
+}
+
+.social-links:hover {
+  transition: 0.3s ease-in;
+  box-shadow: 1px 1px 10px 1px;
+  border-radius: 10px;
+  padding: 3px;
+}
+
+.social-media-wrapper h2 {
+  font-size: 22px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.buttons-wrapper a {
+  color: black;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+  max-width: 130px;
+  width: 100%;
+  text-align: center;
+  border-radius: 15px;
+  transition: 0.3s ease-in;
+}
+.info-btn1 {
+  background: hsla(331, 78%, 69%, 1);
+}
+.info-btn2 {
+  background: hsla(238, 82%, 70%, 1);
+}
+.buttons-wrapper a:hover {
+  transition: 0.3s ease-in;
+  text-decoration: none;
+  padding: 9px;
+  font-size: 17px;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(
+    90deg,
+    hsla(331, 78%, 69%, 1) 0%,
+    hsla(238, 82%, 70%, 1) 100%
+  );
+}
+
+/* mobile responsive */
+@media screen and (max-width: 767px) {
+  .card-wrapper {
+    margin: 20px;
+  }
+  .portfolio-image {
+    max-width: 100px;
+  }
+  .information-container h1 {
+    font-size: 28px;
+  }
+  .information-container h3 {
+    font-size: 16px;
+  }
+  .social-links {
+    margin: 10px auto;
+  }
+}
+/* tablate responsive */
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .portfolio-image {
+    max-width: 120px;
+  }
+  .information-container h1 {
+    font-size: 32px;
+  }
+  .information-container h3 {
+    font-size: 18px;
+  }
+  .social-links {
+    margin: 10px auto;
+  }
+}
+/* small screen responive */
+@media screen and (min-width: 1024px) {
+}

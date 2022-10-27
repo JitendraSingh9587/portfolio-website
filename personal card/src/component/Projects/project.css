@@ -1,0 +1,40 @@
+.project-info h1 {
+  text-transform: capitalize;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+}
+.project-info h1:hover {
+  text-decoration: underline;
+}
+.project-info h2 {
+  color: #fff;
+  font-weight: 600;
+  color: #fff;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.project a:hover {
+  text-decoration: none;
+}
+.project-info {
+  text-align: center;
+}
+.companylogo {
+  max-width: 200px;
+  min-height: 140px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.project {
+  border: 1px solid #fff;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 25px 10px;
+  transition: 0.3s all ease-in-out;
+}
+.project:hover {
+  box-shadow: 2px 2px 20px 2px #fff;
+  transition: 0.3s all ease-in-out;
+}

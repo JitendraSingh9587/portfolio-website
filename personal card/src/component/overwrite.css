@@ -1,0 +1,16 @@
+body {
+  background-image: url("../images/background/bg2.jpg");
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: Lato;
+}
+img {
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+}

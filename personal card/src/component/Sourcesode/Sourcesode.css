@@ -1,0 +1,16 @@
+.resumeicon {
+  max-width: 150px;
+  border-radius: 50%;
+  margin: auto;
+}
+.resumeicon img {
+  border-radius: 50%;
+}
+.resumearea {
+  min-width: 300px;
+}
+.download-btn button {
+  border: 1px solid #000;
+  border-radius: 10px;
+  font-size: 18px;
+}
